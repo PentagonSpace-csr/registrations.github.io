@@ -1,0 +1,14 @@
+@charset "UTF-8";
+#navbarSupportedContent1 .navbar-nav.mr-auto .nav-item {
+	-webkit-box-shadow: 0px 0px #F50004;
+	box-shadow: 0px 0px #F50004;
+	background-color: #3D0FF5;
+	color: #FFFFFF;
+	text-shadow: 0px 0px #FFFFFF;
+}
+.nav-item.active .nav-link strong {
+	color: #FFFFFF;
+}
+.nav-item .nav-link strong {
+	color: #F6F6F6;
+}
