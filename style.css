@@ -11,6 +11,8 @@
 .container .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
 	color: #FFFFFF;
 }
+.container-fluid .container .btn.btn-primary {
+}
 .nav-item.active .nav-link strong {
 	color: #FFFFFF;
 }
@@ -34,4 +36,21 @@
 	background-image: linear-gradient(180deg,rgba(24,14,77,1.00) 100%,rgba(255,0,0,1.00) 100%);
 	margin-top: 6px;
 	border-width: 0px;
+}
+.container-fluid .container .btn.btn-primary {
+	right: -4px;
+}
+.container .list-unstyled .badge.badge-primary {
+	min-height: 46px;
+	width: 225px;
+}
+.container .list-unstyled .badge.badge-success {
+	width: 225px;
+	height: 45px;
+}
+.container .list-unstyled .badge.badge-warning {
+	height: 45px;
+	width: 220px;
+	background-color: #000000;
+	color: #EEEEEE;
 }
