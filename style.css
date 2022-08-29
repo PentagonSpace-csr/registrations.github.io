@@ -12,3 +12,13 @@
 .nav-item .nav-link strong {
 	color: #F6F6F6;
 }
+#navbarSupportedContent1 .navbar-nav.mr-auto .nav-item {
+	background-color: #2002F8;
+	-webkit-box-shadow: 0 0px #0600FF;
+	box-shadow: 0 0px #0600FF;
+	border-radius: 0px;
+	background-image: -webkit-linear-gradient(141deg,rgba(255,255,255,1.00) 0%,rgba(0,17,229,0.93) 0%);
+	background-image: -moz-linear-gradient(141deg,rgba(255,255,255,1.00) 0%,rgba(0,17,229,0.93) 0%);
+	background-image: -o-linear-gradient(141deg,rgba(255,255,255,1.00) 0%,rgba(0,17,229,0.93) 0%);
+	background-image: linear-gradient(309deg,rgba(255,255,255,1.00) 0%,rgba(0,17,229,0.93) 0%);
+}
