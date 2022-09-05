@@ -39,6 +39,7 @@
 }
 .container-fluid .container .btn.btn-primary {
 	right: -4px;
+	height: auto;
 }
 .container .list-unstyled .badge.badge-primary {
 	min-height: 46px;
@@ -50,7 +51,69 @@
 }
 .container .list-unstyled .badge.badge-warning {
 	height: 45px;
-	width: 220px;
+	width: 221px;
 	background-color: #000000;
 	color: #EEEEEE;
+	margin-bottom: 0px;
+	top: 3px;
+}
+.card.col-md-4 .card-body .btn.btn-primary {
+	margin-top: 68px;
+	margin-right: 68px;
+	margin-bottom: 68px;
+	margin-left: 68px;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 5px;
+	padding-left: 6px;
+	top: -16px;
+	right: -6px;
+	border-radius: 0px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.container .row #submit {
+	right: 101px;
+	left: 40px;
+	padding-right: 13px;
+	margin-top: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	margin-left: 8px;
+}
+.container-fluid .container #submit {
+	padding-top: 0px;
+	top: 29px;
+	right: 22px;
+}
+.card.col-md-4 .card-body .btn.btn-primary {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.card.col-md-4 .card-body .btn.btn-primary {
+	padding-top: 0px;
+}
+.card.col-md-4 .card-body .btn.btn-primary {
+	margin-top: 18px;
+}
+.card.col-md-4 .card-body .btn.btn-primary {
+}
+.container-fluid .container .btn.btn-sm {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: -9px;
+}
+.container .list-unstyled .btn.btn-sm {
+	margin-top: -846px;
+	margin-right: -7px;
+	margin-left: 468px;
+	margin-bottom: 1085px;
+	text-decoration: underline;
+	text-indent: 0;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	word-spacing: 0;
 }
