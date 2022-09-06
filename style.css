@@ -123,3 +123,23 @@
 	padding-right: 0px;
 	padding-left: 5px;
 }
+.container-fluid table {
+	padding-right: 0px;
+	min-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+
+
+
+
+body footer p {
+	margin-left: 0px;
+	padding-left: 50px;
+}
+.card.text-center.col-md-4.col-lg-12 .card-header .img-thumbnail.img-fluid {
+	width: 75px;
+}
+.card-header a .img-thumbnail.img-fluid {
+	padding-bottom: 0px;
+}
