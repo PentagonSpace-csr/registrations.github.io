@@ -152,3 +152,106 @@ body footer p {
 	padding-left: 0px;
 	width: 2116px;
 }
+.container-fluid .container label {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 175px;
+	padding-bottom: 0px;
+}
+.container-fluid .card.text-center.col-md-4.col-lg-12 .container-fluid {
+	padding-left: 0px;
+	top: 5px;
+}
+.container-fluid .container legend {
+	margin-left: 185px;
+	padding-left: 17px;
+	padding-bottom: 0px;
+	padding-right: 30px;
+	padding-top: 0px;
+}
+.container-fluid .container #form1 {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	top: 24px;
+	bottom: 52px;
+}
+.container-fluid .container .img-fluid {
+	position: relative;
+}
+.container-fluid .container .img-fluid {
+	position: relative;
+	color: #FFFFFF;
+}
+.container-fluid .container label {
+	position: relative;
+	padding-top: 186px;
+	padding-bottom: 186px;
+	padding-left: 186px;
+	padding-right: 186px;
+	top: 215px;
+	color: #FFFFFF;
+	background-position: -12% -2%;
+}
+.container-fluid .container label {
+	position: absolute;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#hero {
+}
+#hero1 {
+}
+.container-fluid .container #hero1 {
+	position: relative;
+}
+.container-fluid .container label {
+	position: absolute;
+	padding-top: 0px;
+	padding-left: 250px;
+	padding-bottom: 0px;
+	margin-top: -76px;
+}
+.container-fluid .container input {
+	position: absolute;
+	margin-top: -1400px;
+	width: 286px;
+	margin-left: 385px;
+}
+#textfield {
+	padding-left: 400px;
+	padding-bottom: 0px;
+	position: absolute;
+	padding-right: 0px;
+	margin-right: -70px;
+	margin-left: 600px;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 2px 5px;
+	box-shadow: 1px 2px 5px;
+}
+#textfield2 {
+	padding-left: 100px;
+	padding-bottom: 0px;
+	position: absolute;
+	padding-right: 0px;
+	margin-right: -70px;
+	margin-left: 175px;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 2px 5px;
+	box-shadow: 1px 2px 5px;
+}
+body label {
+	position: absolute;
+	padding-left: 159px;
+	margin-left: 10px;
+}
+#email {
+	padding-left: 100px;
+	padding-bottom: 0px;
+	position: absolute;
+	padding-right: 0px;
+	margin-right: -70px;
+	margin-left: 175px;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 2px 5px;
+	box-shadow: 1px 2px 5px;
+}
