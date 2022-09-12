@@ -191,7 +191,7 @@ margin-bottom:10px;
 	.CSRRegistration
 	{
 		
-		padding:15px;
+		padding:20px;
 	}
 	
 	.box{
@@ -205,4 +205,16 @@ margin-bottom:10px;
 		"list";
 	
 }
+	.formBox .row50
+	{
+		display:flex;
+		gap:0;
+		flex-direction: column;
+	}
+	
+	.inputBox
+	{
+		width: 100;
+	}
 }
+	
