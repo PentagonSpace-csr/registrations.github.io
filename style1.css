@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+body
+{
+	background: linear-gradient(90deg ,#211562 30%,#03a9f5 250%);
+}
+
+.CSRRegistration
+{
+	position: relative;
+	width: 100%;
+	padding: 40px 100px;
+}
+.CSRRegistration .title 
+{
+display:flex;
+justify-content: center;
+align-items: center;
+font-size: 2em;
+}
+.CSRRegistration .title h2
+{
+	color: #FFFFFF;
+	font-weight: 500;
+}
+
+
+.form{
+	
+	grid-area: form;
+}
+
+.registration
+{
+	
+	padding:40px;
+	background: #FFF;
+	
+	
+	
+}
+.box{
+	position: relative;
+	display: grid;
+	grid-template-columns: 2fr;
+	grid-template-rows: 5fr 4fr;
+	grid-template-areas: "form";
+		
+}
+
+.registration h6
+{
+	font-weight: 500;
+	font-size:0.5em;
+	margin-bottom: 100	%;
+	
+	
+}
