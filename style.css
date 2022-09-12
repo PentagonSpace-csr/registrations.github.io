@@ -217,41 +217,4 @@ body footer p {
 	width: 286px;
 	margin-left: 385px;
 }
-#textfield {
-	padding-left: 400px;
-	padding-bottom: 0px;
-	position: absolute;
-	padding-right: 0px;
-	margin-right: -70px;
-	margin-left: 600px;
-	border-radius: 5px;
-	-webkit-box-shadow: 1px 2px 5px;
-	box-shadow: 1px 2px 5px;
-}
-#textfield2 {
-	padding-left: 100px;
-	padding-bottom: 0px;
-	position: absolute;
-	padding-right: 0px;
-	margin-right: -70px;
-	margin-left: 175px;
-	border-radius: 5px;
-	-webkit-box-shadow: 1px 2px 5px;
-	box-shadow: 1px 2px 5px;
-}
-body label {
-	position: absolute;
-	padding-left: 159px;
-	margin-left: 10px;
-}
-#email {
-	padding-left: 100px;
-	padding-bottom: 0px;
-	position: absolute;
-	padding-right: 0px;
-	margin-right: -70px;
-	margin-left: 175px;
-	border-radius: 5px;
-	-webkit-box-shadow: 1px 2px 5px;
-	box-shadow: 1px 2px 5px;
-}
+
