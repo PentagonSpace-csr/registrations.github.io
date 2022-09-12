@@ -28,12 +28,57 @@ body
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 2em;
+	font-size: 1em;
 }
 
 .CSRRegistration .title h2
 {
 	color:#FFF;
 	font-weight: 500;
+}
+
+.form
+{
+	grid-area: form;
+}
+
+
+.stats
+{
+	grid-area: stats;
+}
+
+.list
+{
+	grid-area: list;
+}
+
+.contact
+{
+	padding:40px;
+	background: #fff
+}
+
+.box{
+	position: relative;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 5fr 4fr;
+	grid-template-areas: 
+		"form stats"
+		"form list";
+	grid-gap: 20px;
+	margin-top: 20px;
+		
+}
+
+.contact h6
+{
+	
+color:#0e3959;
+font-weight: 500;
+font-size:1.4em;
+margin-bottom:10px;
+	
 }
 
