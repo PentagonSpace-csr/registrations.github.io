@@ -9,16 +9,17 @@
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<link href="style1.css" rel="stylesheet" type="text/css">
+	
   </head>
   <body>
 <div class="container-fluid">
 <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html">Home&nbsp;</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active"> <a class="nav-link" href="index.html"><strong>&nbsp; &nbsp;Why CSR&nbsp;&nbsp;</strong></a> </li>
-          <li class="nav-item"> <a class="nav-link" href="Register.html"><strong>&nbsp; &nbsp; Register</strong></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="Register.html"><strong>&nbsp;&nbsp; Register</strong></a> </li>
           <li class="nav-item"> <a class="nav-link" href="#"><strong>&nbsp; &nbsp;  Placement Statistics</strong></a></li>
           <li class="nav-item"> <a class="nav-link" href="#"><strong>&nbsp; &nbsp; Enroll for Career Enhancement</strong></a></li>
           <li class="nav-item dropdown">
@@ -39,49 +40,226 @@
 	<div class="contact form">
 		<h6> Enter Your Details Properly</h6>
 		
-		<form>
+		<form method="post" autocomplete="off" name="google-sheet">
 		
 		<div class="formBox">
 		<div class="row50">
 		<div class="inputBox">
 		<span>First Name</span>
-		<input type="text" placeholder="Your Name" value="" required=""/>			
+		<input type="text" name="First Name" placeholder="Your Name" value="" required=""/>			
 		</div>
 			<div class="inputBox"> 
 		<span>Last Name</span>
-		<input type="text" placeholder="Last Name" value="" required=""/>			
+		<input type="text" name="Last Name" placeholder="Last Name" value="" required=""/>			
 		</div>		
 		</div>		
 		<div class="row50">
 		<div class="inputBox">
 		<span>Email id</span>
-		<input type="text" placeholder="Email" value="" required=""/>			
+		<input type="text" name="Email" placeholder="Email" value="" required=""/>			
 		</div>
 			<div class="inputBox"> 
 		<span>Mobile Number</span>
-		<input type="text" placeholder="Mobile Number" value="" required="" title="Mobile number should be 10 digits" pattern="[1-9]{1}[0-9]{9}"/>			
+		<input type="text" name="Mobile Number1" placeholder="Mobile Number" value="" required="" title="Mobile number should be 10 digits" pattern="[1-9]{1}[0-9]{9}"/>			
 		</div>
 			</div>	
 			<div class="row50">
 		<div class="inputBox">
 		<span>Mobile Num(whats app)</span>
-		<input type="text" placeholder="Mobile Number" value="" required="" title="Mobile number should be 10 digits" pattern="[1-9]{1}[0-9]{9}"/>			
+		<input type="text" name="Mobile Number2" placeholder="Mobile Number" value="" required="" title="Mobile number should be 10 digits" pattern="[1-9]{1}[0-9]{9}"/>			
 		</div>
 			<div class="inputBox"> 
 		<span>Gaurdian  Number</span>
-		<input type="text" placeholder="Mobile Number" value="" required="" title="Mobile number should be 10 digits" pattern="[1-9]{1}[0-9]{9}"/>			
+		<input type="text" name="Gaurdian Number" placeholder="Mobile Number" value="" required="" title="Mobile number should be 10 digits" pattern="[1-9]{1}[0-9]{9}"/>			
+		</div>
+			</div>	
+			<div class="row50">
+		<div class="inputBox">
+		<span>UG Studied Location</span>
+		<input type="text" name="UG Studied Location" placeholder="District Name" value="" required=""/>			
+		</div>
+			<div class="inputBox"> 
+		<span>University Reg Num</span>
+		<input type="text" name="University Reg Num" placeholder="University Roll Number" value="" required=""/>			
+		</div>
+			</div>
+		
+			<div class="row50">
+		<div class="inputBox">
+		<span>10th %</span>
+		<input type="text" name="10th %" placeholder="Enter in % only" value="" required=""/>			
+		</div>
+			<div class="inputBox"> 
+		<span>12th %</span>
+		<input type="text" name="12th %" placeholder="Enter in % only" value="" required=""/>			
+		</div>
+			</div>	
+			
+			<div class="row50">
+		<div class="inputBox">
+		<span>UG %</span>
+		<input type="text" name="UG %" placeholder="Enter in % only" value="" required=""/>			
+		</div>
+			<div class="inputBox"> 
+		<span>PG %</span>
+		<input type="text" name="PG %" placeholder="Enter in % only(optional)" value=""/>			
 		</div>
 			</div>	
 			
 			
+		
+			 
+			<div class="dropdown"> <span>Select Ug</span>  <br><select name="UG" id="ug" required="">
+    <option selected="selected">Select Ug</option>
+			<option>BE/BTech</option>
+			<option>BCA</option>
+			<option>BSc</option>
+			
+</select> </div><br>
 			
 			
+			<div class="dropdown"> <span>Select Ug Dept</span>  <br> <select name="UG Dept" id="ug dept" required="">
+    <option selected="selected">Select Ug Dept</option>
+			<option>CSE</option>
+			<option>ISE</option>
+			<option>ECE</option>
+			<option>EEE</option>
+			<option>IT</option>
+			<option>Mech</option>
+			<option>Civil</option>
+			<option>Material Science</option>
+			<option>Automobile</option>
+			<option>Architecture</option>
+			<option>Instrumention</option>
+			<option>Applied Electronics</option>
+	        <option>Telecommunication</option>
+		    <option>Biomedical</option>
+			<option>Industrial and Production</option>
+            <option>Agriculture</option>
+		    <option>Textile</option>
+		    <option>Aeronautical</option>
+		    <option>Applied Electronics</option>
+            <option>Mechatronics</option>
+			<option>Nano Technology</option>
+            <option>BCA</option>
+            <option>Bsc</option>
+			<option>Others</option>
+
+			
+</select> </div><br>
 			
 			
+			<div class="dropdown"> <span>Select Ug YOP</span>  <br> <select name="UG yop" id="ug yop" required="">
+    <option selected="selected">Select Ug YOP</option>
+			<option>2015</option>
+			<option>2016</option>
+			<option>2017</option>
+			<option>2018</option>
+			<option>2019</option>
+			<option>2020</option>
+			<option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+
+			
+</select> </div><br>
+			
+			<div class="dropdown"> <span>Select Pg</span>  <br><select name="PG" id="pg" required="">
+    <option selected="selected">Select Pg</option>
+			<option>MTech</option>
+			<option>MCA</option>
+				<option>MSc</option>
+			
+</select> </div><br>
 			
 			
+			<div class="dropdown"> <span>Select Pg Dept</span>  <br> <select name="PG Dept" id="pg dept" required="">
+    <option selected="selected">Select Pg Dept</option>
+			<option>CSE</option>
+			<option>ISE</option>
+			<option>ECE</option>
+			<option>EEE</option>
+			<option>IT</option>
+			<option>Mech</option>
+			<option>Civil</option>
+			<option>Material Science</option>
+			<option>Automobile</option>
+			<option>Architecture</option>
+			<option>Instrumention</option>
+			<option>Applied Electronics</option>
+	        <option>Telecommunication</option>
+		    <option>Biomedical</option>
+			<option>Industrial and Production</option>
+            <option>Agriculture</option>
+		    <option>Textile</option>
+		    <option>Aeronautical</option>
+		    <option>Applied Electronics</option>
+            <option>Mechatronics</option>
+			<option>Nano Technology</option>
+            <option>MCA</option>
+            <option>Msc</option>
+			<option>Others</option>
+
 			
-		<div class="row100">
+</select> </div><br>
+			
+			
+			<div class="dropdown"> <span>Select Pg YOP</span>  <br> <select name="PG yop" id="pg yop" required="">
+    <option selected="selected">Select Pg YOP</option>
+			<option>2015</option>
+			<option>2016</option>
+			<option>2017</option>
+			<option>2018</option>
+			<option>2019</option>
+			<option>2020</option>
+			<option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+
+			
+</select> </div><br>
+			
+			
+		
+	<div class="dropdown"> <span>Select State</span>	<select name="state" id="state" required="">
+ 
+ <option selected="selected">Select State</option>
+		
+			
+</select> </div><br>	
+			
+		<div class="dropdown"> <span>Select District</span>	<select name="district" id="district" required="">
+			<option selected="selected">Select District</option>
+			
+			
+</select> </div><br>	
+			
+    
+			
+			
+		<div class="dropdown"> <span>Select College Name</span>	<select name="college" id="college" required="">
+    <option value="" selected="selected">Select College Name</option>
+
+</select>
+			</div>
+		<br>
+			
+			<div class="radio"> <span>Would you require Job support from Pentagon Space?</span>  <br> 
+				<input type="radio" name="placement support" value="yes" required=""/>Yes 	
+				<input type="radio" name="placement support" value="no" required=""/>No 
+				</div> <br>
+			
+			<div class="radio"> <span>Do you have current backlogs/arrears?</span>  <br> 
+				<input type="radio" name="backlogs" value="yes" required=""/>Yes 	
+				<input type="radio" name="backlogs" value="no" required=""/>No 
+				</div> <br>
+	
+			<div class="radio"> <span>Do you Job offer right now?</span>  <br> 
+				<input type="radio" name="current job offer" value="yes" required=""/>Yes 	
+				<input type="radio" name="current job offer" value="no" required=""/>No 
+				</div> <br>
+			
+	<div class="row50">
 		<div class="inputBox">
 		
 		<input type="submit"  value="Submit">			
@@ -95,7 +273,7 @@
 		</div>
 		
 	<div class="contact stats">	
-		<h3>500+ Students getting enrolled for various training Programs</h3>
+		<h3>528+ Students getting enrolled for various training Programs</h3>
 		
 		<div class="infoBox">
 		<span></span>
@@ -109,7 +287,7 @@
 		
 	<div class="contact list">
 		
-		<h3>3200+ Technology Hiring Partners up across India</h3>
+		<h3>3204+ Technology Hiring Partners tie up across India</h3>
 		
 		<div class="infoBox1">
 		<span></span>
@@ -124,11 +302,89 @@
 	</div>
     
 </div>
+	  <script>
 
+var stateObject = {
+  "Karnataka": {
+    "Mysore": ["GSSS", "ATME", "MIT", "MITT"],
+    "Tumkur": ["SIT", "HMIT", "CIT", "SSIT"],
+	  "Mangalore": ["SIT", "HT", "CT", "ST"],
+    
+  },
+  "Andra Pradesh": {
+    "Guntur": ["Loyala", "NRI", "PSCMR"],
+    "Vijayawada": ["BIU", "MKL", "Vijaya"]
+  },
 	
+	"Tamilnadu": {
+    "Pondichary": ["Loya", "RI", "PMR"],
+    "Vijakendra": ["BI", "ML", "Viaya"]
+  },
+}
+window.onload = function() {
+  var stateSel = document.getElementById("state");
+  var districtSel = document.getElementById("district");
+  var collegeSel = document.getElementById("college");
+  for (var x in stateObject) {
+    stateSel.options[stateSel.options.length] = new Option(x, x);
+  }
+  stateSel.onchange = function() {
+    //empty Chapters- and Topics- dropdowns
+    collegeSel.length = 1;
+    districtSel.length = 1;
+    //display correct values
+    for (var y in stateObject[this.value]) {
+      districtSel.options[districtSel.options.length] = new Option(y, y);
+    }
+  }
+  districtSel.onchange = function() {
+    //empty Chapters dropdown
+    collegeSel.length = 1;
+    //display correct values
+    var z = stateObject[stateSel.value][this.value];
+    for (var i = 0; i < z.length; i++) {
+      collegeSel.options[collegeSel.options.length] = new Option(z[i], z[i]);
+    }
+  }
+}
+
+	  </script>
+
+	  <script>
+				function show(anything)
+					{
+						
+						document.querySelector('.textBox').value = 
+						anything;
+					}
+				let dropdown=document.querySelector('.dropdown');
+					dropdown.onclick=function()
+					{
+						dropdown.classList.toggle('active');
+					}
+				
+				</script>
+	  
+	  
+	  
+<script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbzPwJdAWbIx9EnnXPQg8CW9rQ61HUYPCmGWGQDYaAxZ59cQr7lLTipoykFx2uzZzdk_SQ/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+				
+				
+            })
+	  </script>	
 	 
 <!-- body code goes here -->
 
+	
+	
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-3.4.1.min.js">&nbsp;</script>
