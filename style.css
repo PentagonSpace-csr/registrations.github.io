@@ -23,13 +23,13 @@
 	-webkit-box-shadow: 0 0px #0600FF;
 	box-shadow: 0 0px #0600FF;
 	border-radius: 0px;
-	color: #211562;
+	color: #03a9f5;
 }
 .container-fluid .container .navbar.navbar-expand-lg.navbar-light.bg-light {
 	border-radius: 20px;
 	-webkit-box-shadow: 0px 0px;
 	box-shadow: 0px 0px;
-	background-color: #211562;
+	background-color: #03a9f5;
 	background-image: -webkit-linear-gradient(270deg,rgba(24,14,77,1.00) 100%,rgba(255,0,0,1.00) 100%);
 	background-image: -moz-linear-gradient(270deg,rgba(24,14,77,1.00) 100%,rgba(255,0,0,1.00) 100%);
 	background-image: -o-linear-gradient(270deg,rgba(24,14,77,1.00) 100%,rgba(255,0,0,1.00) 100%);
@@ -52,7 +52,7 @@
 .container .list-unstyled .badge.badge-warning {
 	height: 45px;
 	width: 221px;
-	background-color: #000000;
+	background-color: #fff;
 	color: #EEEEEE;
 	margin-bottom: 0px;
 	top: 3px;
