@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 *
 {    
 	margin:0;
@@ -130,7 +131,7 @@ margin-bottom:10px;
 	padding:10px;
 	font-size: 1.1em;
 	outline:none;
-	border:1.2px solid #333;
+	border:0.2px solid #333;
 	
 }
 
@@ -182,6 +183,39 @@ margin-bottom:10px;
 	
 }
 
+.dropdown span
+{
+	color:#18b7ff;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	
+}
+
+.dropdown select
+{
+	padding:10px;
+	font-size: 1.1em;
+	outline:none;
+	border:0.2px solid #333;
+	width:100%;
+}
+
+.radio span
+{
+	color:#18b7ff;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	
+}
+
+.radio input
+{
+	padding:10px;
+	font-size: 1.1em;
+	outline:none;
+	border:0.2px solid #333;
+	width:100%;
+}
 @media(max-width:991px)
 {
 	body{
@@ -217,5 +251,7 @@ margin-bottom:10px;
 	{
 		width: 100%;
 	}
-}
 	
+	
+}
+
