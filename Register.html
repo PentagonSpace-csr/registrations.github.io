@@ -46,70 +46,70 @@
 		<div class="row50">
 		<div class="inputBox">
 		<span>First Name</span>
-		<input type="text" name="First Name" placeholder="Your Name" value="" required=""/>			
+		<input type="text" name="First Name" id="fn" placeholder="Your Name" value="" required=""/>			
 		</div>
 			<div class="inputBox"> 
 		<span>Last Name</span>
-		<input type="text" name="Last Name" placeholder="Last Name" value="" required=""/>			
+		<input type="text" name="Last Name" id="ln" placeholder="Last Name" value="" required=""/>			
 		</div>		
 		</div>		
 		<div class="row50">
 		<div class="inputBox">
 		<span>Email id</span>
-		<input type="text" name="Email" placeholder="Email" value="" required=""/>			
+		<input type="text" name="Email" id="email" placeholder="Email" value="" required=""/>			
 		</div>
 			<div class="inputBox"> 
 		<span>Mobile Number</span>
-		<input type="text" name="Mobile Number1" placeholder="Mobile Number" value="" required="" title="Mobile number should be 10 digits" pattern="[1-9]{1}[0-9]{9}"/>			
+		<input type="text" name="Mobile Number1" id="mn1" placeholder="Mobile Number" value="" required="" title="Mobile number should be 10 digits" pattern="[1-9]{1}[0-9]{9}"/>			
 		</div>
 			</div>	
 			<div class="row50">
 		<div class="inputBox">
 		<span>Mobile Num(whats app)</span>
-		<input type="text" name="Mobile Number2" placeholder="Mobile Number" value="" required="" title="Mobile number should be 10 digits" pattern="[1-9]{1}[0-9]{9}"/>			
+		<input type="text" name="Mobile Number2" id="mn2" placeholder="Mobile Number" value="" required="" title="Mobile number should be 10 digits" pattern="[1-9]{1}[0-9]{9}"/>			
 		</div>
 			<div class="inputBox"> 
 		<span>Gaurdian  Number</span>
-		<input type="text" name="Gaurdian Number" placeholder="Mobile Number" value="" required="" title="Mobile number should be 10 digits" pattern="[1-9]{1}[0-9]{9}"/>			
+		<input type="text" name="Gaurdian Number" id="mn3" placeholder="Mobile Number" value="" required="" title="Mobile number should be 10 digits" pattern="[1-9]{1}[0-9]{9}"/>			
 		</div>
 			</div>	
 			<div class="row50">
 		<div class="inputBox">
 		<span>UG Studied Location</span>
-		<input type="text" name="UG Studied Location" placeholder="District Name" value="" required=""/>			
+		<input type="text" name="UG Studied Location" id="ugsl" placeholder="District Name" value="" required=""/>			
 		</div>
 			<div class="inputBox"> 
 		<span>University Reg Num</span>
-		<input type="text" name="University Reg Num" placeholder="University Roll Number" value="" required=""/>			
+		<input type="text" name="University Reg Num" id="usn" placeholder="University Roll Number" value="" required=""/>			
 		</div>
 			</div>
 		
 			<div class="row50">
 		<div class="inputBox">
 		<span>10th %</span>
-		<input type="text" name="10th %" placeholder="Enter in % only" value="" required=""/>			
+		<input type="text" name="10th %" id="tenth" placeholder="Enter in % only" value="" required=""/>			
 		</div>
 			<div class="inputBox"> 
 		<span>12th %</span>
-		<input type="text" name="12th %" placeholder="Enter in % only" value="" required=""/>			
+		<input type="text" name="12th %" id="twelth" placeholder="Enter in % only" value="" required=""/>			
 		</div>
 			</div>	
 			
 			<div class="row50">
 		<div class="inputBox">
 		<span>UG %</span>
-		<input type="text" name="UG %" placeholder="Enter in % only" value="" required=""/>			
+		<input type="text" name="UG %" id="ug" placeholder="Enter in % only" value="" required=""/>			
 		</div>
 			<div class="inputBox"> 
 		<span>PG %</span>
-		<input type="text" name="PG %" placeholder="Enter in % only(optional)" value=""/>			
+		<input type="text" name="PG %" id="pg" placeholder="Enter in % only(optional)" value=""/>			
 		</div>
 			</div>	
 			
 			
 		
 			 
-			<div class="dropdown"> <span>Select Ug</span>  <br><select name="UG" id="ug" required="">
+			<div class="dropdown"> <span>Select Ug</span>  <br><select name="UG" id="ugd" required="">
     <option selected="selected">Select Ug</option>
 			<option>BE/BTech</option>
 			<option>BCA</option>
@@ -118,7 +118,7 @@
 </select> </div><br>
 			
 			
-			<div class="dropdown"> <span>Select Ug Dept</span>  <br> <select name="UG Dept" id="ug dept" required="">
+			<div class="dropdown"> <span>Select Ug Dept</span>  <br> <select name="UG Dept" id="ugdept" required="" placeholder="Select Ug Dept">
     <option selected="selected">Select Ug Dept</option>
 			<option>CSE</option>
 			<option>ISE</option>
@@ -143,13 +143,14 @@
 			<option>Nano Technology</option>
             <option>BCA</option>
             <option>Bsc</option>
+			<option>AI and ML</option>
 			<option>Others</option>
 
 			
 </select> </div><br>
 			
 			
-			<div class="dropdown"> <span>Select Ug YOP</span>  <br> <select name="UG yop" id="ug yop" required="">
+			<div class="dropdown"> <span>Select Ug YOP</span>  <br> <select name="UG yop" id="ugyop" required="">
     <option selected="selected">Select Ug YOP</option>
 			<option>2015</option>
 			<option>2016</option>
@@ -164,8 +165,9 @@
 			
 </select> </div><br>
 			
-			<div class="dropdown"> <span>Select Pg</span>  <br><select name="PG" id="pg" required="">
+			<div class="dropdown"> <span>Select Pg</span>  <br><select name="PG" id="pgd" required="">
     <option selected="selected">Select Pg</option>
+			<option>NOT APPLICABLE TO ME</option>	
 			<option>MTech</option>
 			<option>MCA</option>
 				<option>MSc</option>
@@ -173,8 +175,9 @@
 </select> </div><br>
 			
 			
-			<div class="dropdown"> <span>Select Pg Dept</span>  <br> <select name="PG Dept" id="pg dept" required="">
+			<div class="dropdown"> <span>Select Pg Dept</span>  <br> <select name="PG Dept" id="pgdept" required="">
     <option selected="selected">Select Pg Dept</option>
+			<option>NOT APPLICABLE TO ME</option>		
 			<option>CSE</option>
 			<option>ISE</option>
 			<option>ECE</option>
@@ -198,14 +201,16 @@
 			<option>Nano Technology</option>
             <option>MCA</option>
             <option>Msc</option>
+			<option>AI and ML</option>
 			<option>Others</option>
 
 			
 </select> </div><br>
 			
 			
-			<div class="dropdown"> <span>Select Pg YOP</span>  <br> <select name="PG yop" id="pg yop" required="">
+			<div class="dropdown"> <span>Select Pg YOP</span>  <br> <select name="PG yop" id="pgyop" required="">
     <option selected="selected">Select Pg YOP</option>
+			<option>NOT APPLICABLE TO ME</option>	
 			<option>2015</option>
 			<option>2016</option>
 			<option>2017</option>
@@ -238,25 +243,25 @@
 			
 			
 		<div class="dropdown"> <span>Select College Name</span>	<select name="college" id="college" required="">
-    <option value="" selected="selected">Select College Name</option>
+    <option selected="selected">Select College Name</option>
 
 </select>
 			</div>
 		<br>
 			
 			<div class="radio"> <span>Would you require Job support from Pentagon Space?</span>  <br> 
-				<input type="radio" name="placement support" value="yes" required=""/>Yes 	
-				<input type="radio" name="placement support" value="no" required=""/>No 
+				<input type="radio" id="js" name="placement support" value="yes" required=""/>Yes 	
+				<input type="radio" id="js1" name="placement support" value="no" required=""/>No 
 				</div> <br>
 			
 			<div class="radio"> <span>Do you have current backlogs/arrears?</span>  <br> 
-				<input type="radio" name="backlogs" value="yes" required=""/>Yes 	
-				<input type="radio" name="backlogs" value="no" required=""/>No 
+				<input type="radio" id="cb" name="backlogs" value="yes" required=""/>Yes 	
+				<input type="radio" id="cb1" name="backlogs" value="no" required=""/>No 
 				</div> <br>
 	
 			<div class="radio"> <span>Do you Job offer right now?</span>  <br> 
-				<input type="radio" name="current job offer" value="yes" required=""/>Yes 	
-				<input type="radio" name="current job offer" value="no" required=""/>No 
+				<input type="radio" id="jo" name="current job offer" value="yes" required=""/>Yes 	
+				<input type="radio" id="jo1" name="current job offer" value="no" required=""/>No 
 				</div> <br>
 			
 	<div class="row50">
@@ -350,20 +355,7 @@ window.onload = function() {
 
 	  </script>
 
-	  <script>
-				function show(anything)
-					{
-						
-						document.querySelector('.textBox').value = 
-						anything;
-					}
-				let dropdown=document.querySelector('.dropdown');
-					dropdown.onclick=function()
-					{
-						dropdown.classList.toggle('active');
-					}
-				
-				</script>
+	  
 	  
 	  
 	  
@@ -374,9 +366,37 @@ window.onload = function() {
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .then(response => alert("Congratulations! You have successfully registered"))
                 .catch(error => console.error('Error!', error.message))
 				
+				fn.value="";
+				ln.value="";
+				email.value="";
+				mn1.value="";
+				mn2.value="";
+				mn3.value="";
+				ugsl.value="";
+				usn.value="";
+				tenth.value="";
+				twelth.value="";
+				ug.value="";
+				pg.value="";
+				ugd.value="";
+				ugdept.value="";
+				ugyop.value="";
+				pgd.value="";
+				pgdept.value="";
+				pgyop.value="";
+				state.value="";
+				district.value="";
+				college.value="";
+				js.value="";
+				js1.value="";
+				cb.value="";
+				cb1.value="";
+				jo.value="";
+				jo1.value="";		
+						
 				
             })
 	  </script>	
