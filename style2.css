@@ -1,0 +1,108 @@
+@charset "UTF-8";
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	
+}
+
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #0e3959;
+}
+
+.conatainer{
+	
+	position: 	relative;
+	width:1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap:20px;
+	flex-wrap: wrap;
+	
+}
+
+.conatainer .trainingBox
+{
+	
+	position: relative;
+	width: 350px;
+	height: 280px;
+	background: #03a9f5;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.conatainer .trainingBox .icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--i);
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+	
+}
+
+.conatainer .trainingBox:hover .icon
+{
+	top:30px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	
+	
+}
+
+.conatainer .trainingBox .icon ion-icon
+{
+	font-size: 5em;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.conatainer .trainingBox:hover .icon ion-icon
+{
+	font-size: 2em;
+	
+}
+
+.conatainer .trainingBox .content
+
+{
+	
+	position: relative;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+	margin-top: 100px;
+	z-index: 1;
+}
+
+.conatainer .trainingBox .content h2
+{
+	
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.conatainer .trainingBox .content p
+{
+	
+	font-weight: 300;
+	line-height: 1.5em;
+}
+
